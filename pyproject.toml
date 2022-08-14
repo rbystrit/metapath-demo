@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "metapath-demo"
+version = "0.1.0"
+description = ""
+authors = ["Roman Bystritskiy <rbystrit@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fsspec = "^2022.7.1"
+
+[tool.poetry.dev-dependencies]
+requests = "^2.28.1"
+flake8 = "^5.0.4"
+black = "^22.6.0"
+flake8-black = "^0.3.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
